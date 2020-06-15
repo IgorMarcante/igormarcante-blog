@@ -1,48 +1,21 @@
 ---
-title: Post de Exemplo
-description: 'Descrição do POST criado para exemplo'
-date: '2020-06-11 08:51:23'
-image: /assets/img/mussum-ipsum.jpg
+title: Curso sobre desenvolvimento de sites com Gatsby
+description: Desenvolva sites extremamente rápido e com as tecnologias mais
+  atuais do mercado
+date: 2020-06-15 09:54:30
+image: assets/img/gatsbyimage.jpeg
 category: MISC
-background: '#7AAB13'
+background: "#7AAB13"
 ---
-## Mussum Ipsum o melhor ipsum do mundis
 
-Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Paisis, filhis, espiritis santis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+## Introduçao
 
-````jsx
-import React from 'react'
-import Profile from '../Profile'
-import * as S from './styled'
-import SocialLinks from '../SocialLinks'
-import MenuLinks from '../MenuLinks'
-const Sidebar = () => (
-  <S.SidebarWrapper>
-    <Profile />
-    <SocialLinks />
-    <MenuLinks />
-  </S.SidebarWrapper>
-);
+Falei um pouco sobre o framework Gatsby e sobre um curso que realizei com o intuito de aprende-lo, e farei minha avaliação sobre o curso e darei alguns detalhes a mais sobre o mesmo, além de dar uma breve explicação sobreo que é o Gatsby e o porque de eu ter escolhido esse framework em meio a muitos outros que existe no mercado.
 
-export default Sidebar;
-````
-A ordem dos tratores não altera o pão duris. Viva Forevis aptent taciti sociosqu ad litora torquent. Delegadis gente finis, bibendum egestas augue arcu ut est. Atirei o pau no gatis, per gatis num morreus.
+![Gatsby Logo](assets/img/gatsbyimage.jpeg)
 
+###Porque eu escolhi o Gatsby
+Esse ano iniciei os estudos da stack ReactJS+ReactNative+NodeJS e acabei me gostanto muito do React, em pesquisas pela internet vi que era muito comum desenvolverores de React criar blogs usando o Gatsby, então fui atrás para saber melhor e gostei bastante.
 
-![Igor](assets/img/cover.png)
-
-Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Admodum accumsan disputationi eu sit. Vide electram sadipscing et per. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Quem num gosta di mé, boa gentis num é.
-
-### Nois bebis
-
-- Cevadis
-- Lupulis
-- Drinks
-
-### Uma frasis de impactis
-
->Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Aenean aliquam molestie leo, vitae iaculis nisl. Cevadis im ampola pa arma uma pindureta. Casamentiss faiz malandris se pirulitá.
-
-## E para fecharis
-
-Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Copo furadis é disculpa de bebadis, arcu quam euismod magna. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.
+###O que é o Gatsby
+Segundo o propio site oficial, o Gatsby é um framework gratuito e de código aberto baseado no React que ajuda os desenvolvedores a criar sites e aplicativos rápidos.
