@@ -19,12 +19,12 @@ const AboutPage = () => (
       <p>Iníciei com programação por volta de 12 anos de idade, criando scripts para 
         jogos online que jogava na época (Counter Strike e Tibia), desde então nunca
           mais sai da área de programação. Atualmente trabalho como programador em uma empresa 
-          de desenvolvimento de sistemas chamada Softnet e tenho o cargo de Chefe de 
-          Desenvolvimento de Sistema no Governo de Rondônia, mais especificamente,
+          de desenvolvimento de sistemas chamada Softnet e também trabalho com Desenvolvimento de Sistemas 
+          no Governo de Rondônia, mais especificamente,
            no Departamento de Estradas de Rodagens(DER).
       </p>
       <p>Gosto de tudo que está relacionado a novas tecnologias voltada a desenvolvimento, tenho interesse em novas 
-        ferramentas e linguagens. Atualmente estou focado nos estudos em ReactJS+ReactNative+NodeJS.</p>
+        ferramentas e linguagens. Minha linguagem principal é o C# (.NET CORE), mas tenho grande interesse na stack ReactJS+ReactNative+NodeJS.</p>
       
       <p>Criei esse blog com o intuito de publicar alguns tutoriais básicos na área de programação, e assuntos aleatórios que
          eu considero legal, como por exemplo desenvolvimento pessoal, produtividade, etc.</p>
