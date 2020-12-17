@@ -2,6 +2,7 @@
 title: Web API ASPNET CORE com Visual Studio Code usando CLI
 description: 'Criando uma Web API básica do zero'
 date: '2020-12-17 20:00:00'
+image: /assets/img/iconeIgor.jpg
 category: .NET
 background: '#6959CD'
 ---
