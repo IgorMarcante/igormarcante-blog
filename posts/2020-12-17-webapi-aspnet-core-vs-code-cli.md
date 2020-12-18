@@ -6,6 +6,10 @@ image: /assets/img/mussum-ipsum.jpg
 category: .NET
 background: '#6959CD'
 ---
+
+### Dificuldade
+Intermediário
+
 ## Criando a base do projeto
 
 Primeiramente vamos criar a estrutura do projeto através do Prompt de Comandos, logo em seguida abriremos o Visual Studio Code e seguiremos utilizando o terminal do próprio VS Code.
@@ -155,6 +159,10 @@ dotnet aspnet-codegenerator controller -name HeroesController -m Hero -dc ApiCon
 Com esse comando, será criado forma automática a controller com todos os métodos base de uma API no padrão Microsoft (GET/POST/PUT/DELETE)
 
 Pronto, finalizamos. Agora vamos rodar nosso projeto utilizando ````dotnet run ```` para ver se tudo saiu conforme o planejado.
+
+### Projeto completo
+Caso queira ver o projeto completo ele está disponivel no git através do seguinte link:
+<a href="https://github.com/IgorMarcante/webapi-heroes">GitHub - WebApi Heroes</a>
 
 
 #### Referências
