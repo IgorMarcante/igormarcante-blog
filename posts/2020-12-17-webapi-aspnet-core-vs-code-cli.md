@@ -12,16 +12,16 @@ Intermediário
 
 ## Criando a base do projeto
 
-Primeiramente vamos criar a estrutura do projeto através do Prompt de Comandos, logo em seguida abriremos o Visual Studio Code e seguiremos utilizando o terminal do próprio VS Code.
+Primeiramente, vamos criar a estrutura do projeto através do Prompt de Comandos. Logo em seguida, abriremos o Visual Studio Code e seguiremos utilizando o terminal do próprio VS Code.
 
-Abra o Prompt, navegue até a pasta em que deseja criar o projeto, em seguida crie uma pasta para o projeto e utilize o seguinte comando para criar a estrutura WebAPI do ASPNET core na pasta criada:
+Abra o Prompt, navegue até a pasta em que deseja criar o projeto, crie uma pasta para o projeto e utilize o seguinte comando para criar a estrutura WebAPI do ASPNET core na pasta criada:
 ````jsx
 mkdir HeroApi
 cd HeroApi
 dotnet new webapi
 ````
 
-Em seguida de um ````code .```` no Prompt para abrir o VS Code.
+Dê um ````code .```` no Prompt para abrir o VS Code.
 
 ## Criando a model e o context
 
@@ -52,7 +52,7 @@ namespace WebApiHeroes.Models {
     }
 }
 ````
-Adicionar a dependência do Entity Framework para ser usada no contexto com o seguinte comando no terminal:<br>
+Adicione a dependência do Entity Framework para ser usada no contexto com o seguinte comando no terminal:<br>
 ````jsx
 dotnet add package Microsoft.EntityFrameworkCore --version 3.1.10
 ````
@@ -75,7 +75,7 @@ namespace WebApiHeroes.Models {
 
 ## Configurando o appsettings.json
 
-Agora precisamos configurar a connection string, para isso adicione adicione as seguintes linhas no arquivo appsettings.json:
+Precisamos configurar a connection string, para isso adicione as seguintes linhas no arquivo appsettings.json:
 
 ````jsx
   "ConnectionStrings": {
@@ -129,12 +129,12 @@ O método completo ficará da seguinte forma:
 
 ````
 
-Agora iremos adicionar a dependência para gerar as migrations que servira como base para a criação do banco de dados, digite o seguinte comando no terminal:
+Iremos adicionar a dependência para gerar as migrations que servirá como base para a criação do banco de dados, digite o seguinte comando no terminal:
 ````jsx
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 3.1.10
 ````
 
-Em seguida gere as migrations usando o seguinte comando no terminal:
+Gere as migrations usando o seguinte comando no terminal:
 ````jsx
 dotnet ef migrations add Initial
 ````
@@ -146,7 +146,7 @@ dotnet ef database update
 
 ## Criando a Controller de forma automática usando o Scaffold
 
-Primeiramente vamos adicione a dependência CodeGeneration que é utilizada no Scaffold, execute a seguinte linha de comando no terminal:
+Primeiramente vamos adicionar a dependência CodeGeneration que é utilizada no Scaffold, execute a seguinte linha de comando no terminal:
 ````jsx
 dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 3.1.4
 ````
@@ -156,9 +156,9 @@ Com a dependência adicionada vamos criar nossa Controller de forma automática 
 dotnet aspnet-codegenerator controller -name HeroesController -m Hero -dc ApiContext -api --relativeFolderPath Controllers
 ````
 
-Com esse comando, será criado forma automática a controller com todos os métodos base de uma API no padrão Microsoft (GET/POST/PUT/DELETE)
+Com esse comando, será criado de forma automática a controller com todos os métodos base de uma API no padrão Microsoft (GET/POST/PUT/DELETE)
 
-Pronto, finalizamos. Agora vamos rodar nosso projeto utilizando ````dotnet run ```` para ver se tudo saiu conforme o planejado.
+Pronto, finalizamos. Vamos rodar nosso projeto utilizando ````dotnet run ```` para ver se tudo saiu conforme o planejado.
 
 ### Projeto completo
 Caso queira ver o projeto completo ele está disponivel no git através do seguinte link:
