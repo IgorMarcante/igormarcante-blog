@@ -18,8 +18,8 @@ Primeiramente vamos criar a estrutura do projeto através do Prompt de Comandos,
 
 Abra o Prompt, navegue até a pasta em que deseja criar o projeto, em seguida crie uma pasta para o projeto e utilize o seguinte comando para criar a estrutura MVC do ASPNET core na pasta criada:
 ````jsx
-mkdir Hero
-cd Hero
+mkdir hero
+cd hero
 dotnet new mvc
 ````
 
@@ -175,7 +175,7 @@ Acesse o sistema utilizando o seguinte endereço:
 Observe que já vem um padrão de layout da Microsoft utilizando o Bootstrap. Se tudo ocorrer bem, quando você entrar no sistema pelo navegador vera essa tela:
 ![Index](assets/img/home.png)
 
-Clicando na opção "Hero" verá essa segunda tela(nela contrem a lista de Heroes cadastrados, é possivel criar novos, editar, apagar e ver detalhes):
+Clicando na opção "Hero" verá essa segunda tela(nela contém a lista de Heroes cadastrados, é possivel criar novos, editar, apagar e ver detalhes):
 ![CRUD](assets/img/crud_index.png)
 
 Se você reparou bem, tem um campo que chamamos de "Foto", parece estranho não? Mas não se preocupe, no proximo artigo iremos utilizar ele para aprender a fazer uploads de foto, com isso além das informações basicas cadastradas iremos também adicionar uma foto ao cadastro.
