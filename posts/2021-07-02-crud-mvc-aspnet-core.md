@@ -1,6 +1,6 @@
 ---
 title: CRUD simples com ASP.NET Core
-description: 'Criando uma CRUD básica do zero usando CLI'
+description: 'Criando um CRUD básica do zero usando CLI'
 date: '2021-07-02 21:00:00'
 category: .NET
 background: '#6959CD'
